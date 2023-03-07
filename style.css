@@ -110,7 +110,6 @@ nav{
 .left{
     width: 70%;
     min-height: 500px;
-    background-color: rgb(30, 144, 255);
     display: flex;
     justify-content: center;
 }
@@ -118,7 +117,6 @@ nav{
 .right{
     width: 30%;
     min-height: 500px;
-    background-color:rgb(255, 192, 203);
     padding: 40px;
 }
 
@@ -146,8 +144,44 @@ nav{
 /* row finale */
 
 .verde{
+    padding: 50px 235px;
     min-height: 1000px;
-    background-color: green;
+    max-width: 1600px;
+    margin: auto;
+    text-align: center;
+}
+
+.blocco > img{
+    display: block;
+} 
+
+.verde >h2{
+    font-size: 55px;
+}
+
+.verde >p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.stars{
+    background-image: url(./img/stars.svg);
+    background-size: contain;
+    width: 40%;
+    margin: auto;
+}
+
+.stars >h3 {
+    font-size: 30px;
+}
+
+.stars > button{
+    border: none;
+    border-radius: 10rem;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #8ea1e1;
+    color: white;
 }
 
 /* fine main */
