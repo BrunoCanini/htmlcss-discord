@@ -59,10 +59,34 @@ nav{
 }
 
 .purple{
-    background-color: rgb(238, 130, 238);
     max-width: 50%;
     min-height: 500px;
     margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.purple > h1{
+    font-size: 80px;
+    padding: 60px;
+}
+
+.purple > p{
+    font-size: 27px;
+    padding: 20px 110px;
+}
+
+.purple > button{
+    border: none;
+    border-radius: 10rem;
+    font-size: 27px;
+    padding: 20px;
+    margin: 10px 20px;
+}
+
+#nero{
+    color: white;
+    background-color:#23272a;
 }
 
 /* fine header */
