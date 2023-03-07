@@ -191,13 +191,28 @@ aside{
     background-color:rgb(35, 39, 42);
     padding-top: 5px;
     padding-bottom: 25px;
-    border-bottom: 1px solid white;
 }
 
 #sideleft{
     width: 30%;
     min-height: 600px;
     background-color:rgb(240, 128, 128) ;
+    padding: 50px;
+}
+
+#sideleft >h3{
+    font-size: 40px;
+    color: #8ea1e1;
+}
+
+#sideleft >img{
+    width: 20px;
+}
+
+#sideleft >select{
+    background-color: #23272a;
+    color: white;
+    margin: 20px 0;
 }
 
 #sideright{
@@ -210,6 +225,12 @@ aside{
 .colonna{
     width: 25%;
     min-height: 100%;
+}
+
+#fontawesome{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
 }
 
 /* fine aside */
