@@ -7,37 +7,52 @@
 /* inizio header */
 
 header{
-    background-color: rgb(173, 216, 230);
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
     max-width: 2400px;
     padding-top: 15px;
 }
 
 nav{
-    background-color: rgb(218, 165, 32);
     max-width: 1600px;
     margin: auto;
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 15px;
 }
 
 .logo{
-    width: 25%;
+    width: 20%;
 }
 
 .login{
-    width: 25%; 
+    width: 20%; 
     text-align: end;
 }
 
+.login > button{
+    border: none;
+    border-radius: 10rem;
+    height: 35px;
+    width: 70px;
+}
+
 .link{
-    width: 50%;
+    width: 60%;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 19px;
+}
+
+.link> a{
+    color: white;
+    text-decoration: none;
 }
 
 .contenitoreheader{
-    background-color: rgb(0, 0, 139);
     width: 100%;
     padding: 30px;
 
@@ -46,7 +61,7 @@ nav{
 .purple{
     background-color: rgb(238, 130, 238);
     max-width: 50%;
-    min-height: 400px;
+    min-height: 500px;
     margin: auto;
 }
 
